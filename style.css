@@ -151,13 +151,7 @@ img {
     font-weight: 500;
     font-size: 9rem;
   }
-  .forsideh1 {
-    position: absolute;
-    top: 87%;
-    left: 48%;
-    transform: translate(-48%, -50%);
-    font-size: 8.5rem;
-  }
+
   h2 {
     font-family: "trirongitalic", serif;
     font-style: italic;
@@ -204,7 +198,6 @@ img {
 
   .link {
     font-family: "Didact Gothic", sans-serif;
-    font-size: 1.2rem;
     color: white;
     text-decoration: none;
     background-color: #be87bd;
@@ -254,22 +247,21 @@ img {
     color: white;
     font-weight: 500;
     font-size: 9rem;
-    margin-left: 28%;
+    margin-left: 25%;
   }
   .navn1 {
     font-family: "trirongitalic", serif;
     font-style: italic;
     color: white;
     font-weight: 500;
-    font-size: 9rem;
+    font-size: 7rem;
     text-align: center;
-    padding-left: 0rem;
+    margin-left: 0rem;
   }
 
   p {
     font-family: "Didact Gothic", sans-serif;
     line-height: 1.6rem;
-    font-size: 1.2rem;
     max-width: 50ch;
     margin-bottom: 1rem;
   }
@@ -277,7 +269,7 @@ img {
   h2 {
     font-family: "trirongitalic", serif;
     font-style: italic;
-    font-size: 5.5rem;
+    font-size: 3rem;
     color: #28129b;
     margin-top: 2.5rem;
     margin-bottom: 3rem;
@@ -285,7 +277,7 @@ img {
   h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
   }
