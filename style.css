@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e4dbd1;
+  margin: 5rem 5rem 1rem 5rem;
+}
+
+hr {
+  color: #be87bd;
+  margin-top: 2.8rem;
+}
+.hrtop {
+  display: none;
+}
+h1 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "trirongitalic", serif;
+  font-style: italic;
+  color: white;
+}
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.grid_1 img {
+  grid-column: 1;
+  grid-row: 1;
+  aspect-ratio: 16/9;
+  width: 80%;
+  place-self: center;
+}
+.grid_1 a {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 10;
+  font-size: 3rem;
+  place-self: center;
+  font-family: "trirongitalic", serif;
+  font-style: italic;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+.grid_1 h1 {
+  padding: 0;
+}
+h2 {
+  font-family: "trirongitalic", serif;
+  font-style: italic;
+  text-align: left;
+  font-weight: 100;
+  font-size: 2.2rem;
+  color: #28129b;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+p {
+  font-family: "Didact Gothic", sans-serif;
+  max-width: 65ch;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+.link {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  background-color: #be87bd;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 2rem;
+}
+.logo {
+  height: 4rem;
+  width: 4rem;
+}
+.navn {
+  display: flex;
+  align-items: baseline;
+}
+img {
+  max-width: 100%;
+  padding-top: 2.2rem;
+}
+
+/****** BURGER MENU *********/
+
+#burgerlogo {
+  aspect-ratio: 1/1;
+  width: 5%;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.toggle-btn {
+  display: contents;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+}
+
+.main-menu.shown {
+  display: contents;
+}
+
+.main-menu ul {
+  display: none;
+}
+
+.main-menu.shown ul {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+@media (min-width: 700px) {
+  body {
+    background-color: #e4dbd1;
+    margin: 5rem 5rem 1rem 5rem;
+  }
+  .hrtop {
+    display: none;
+  }
+  .logo {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  h1 {
+    font-family: "trirongitalic", serif;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    font-size: 9rem;
+  }
+  .forsideh1 {
+    position: absolute;
+    top: 87%;
+    left: 48%;
+    transform: translate(-48%, -50%);
+    font-size: 8.5rem;
+  }
+  h2 {
+    font-family: "trirongitalic", serif;
+    font-style: italic;
+    font-size: 3rem;
+    color: #28129b;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  img {
+    max-width: 100%;
+    padding-top: 1rem;
+  }
+  .blomst {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .link {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    background-color: #be87bd;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: #e4dbd1;
+    margin: 5rem 8rem 1rem 8rem;
+  }
+  .logo {
+    height: 7rem;
+    width: 7rem;
+  }
+  .hrtop {
+    display: block;
+  }
+
+  .link {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    background-color: #be87bd;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid_1 img {
+    grid-column: 1;
+    grid-row: 1;
+    aspect-ratio: 16/9;
+    width: 65%;
+    place-self: center;
+  }
+  .grid_1 a {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 10;
+    font-size: 9rem;
+    place-self: center;
+    font-family: "trirongitalic", serif;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .grid_1 h1 {
+    padding: 0;
+  }
+  .cv {
+    font-family: "trirongitalic", serif;
+    font-style: italic;
+    font-size: 7rem;
+    color: #28129b;
+    text-align: left;
+  }
+
+  h1 {
+    font-family: "trirongitalic", serif;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    font-size: 9rem;
+    margin-left: 28%;
+  }
+  .navn1 {
+    font-family: "trirongitalic", serif;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    font-size: 9rem;
+    text-align: center;
+    padding-left: 0rem;
+  }
+
+  p {
+    font-family: "Didact Gothic", sans-serif;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    max-width: 50ch;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-family: "trirongitalic", serif;
+    font-style: italic;
+    font-size: 5.5rem;
+    color: #28129b;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .blomst {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .grid_1-1 img {
+    aspect-ratio: 16/9;
+    width: 90%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .cv_billede {
+    aspect-ratio: 16/9;
+    width: 200%;
+  }
+  /*************** MENU ****************/
+
+  .menu {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem;
+    margin: 2.5rem 1.5rem 0rem 1.5rem;
+  }
+
+  /* burgermenu */
+  .toggle-btn {
+    display: none;
+  }
+  .main-menu ul {
+    display: flex;
+  }
+}
